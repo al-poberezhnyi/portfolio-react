@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router';
 import Layout from './pages/Layout';
-import Home from './pages/home';
+import Home from './pages/Home';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
 import Projects from './pages/Projects';
@@ -13,8 +13,8 @@ function App () {
                 <Route path='/' element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path='/about' element={<About />} />
-                    <Route path='/contact' element={<Contacts />} />
-                    <Route path='/project' element={<Projects />} />
+                    <Route path='/contacts' element={<Contacts />} />
+                    <Route path='/projects' element={<Projects />} />
                     <Route path='/*' element={<NotFaund />} />
                 </Route>
             </Routes>
