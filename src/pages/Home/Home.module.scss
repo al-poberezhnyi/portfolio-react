@@ -1,0 +1,10 @@
+@use './../../common/templates';
+.container {
+    @extend %padding-container;
+}
+.home {
+    // background-color: #e3d0bf;
+}
+.hero {
+    display: flex;
+}
